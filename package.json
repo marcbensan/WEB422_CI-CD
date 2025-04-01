@@ -5,17 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "cypress": "cypress open",
+    "test": "jest --watchAll",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "jest": "^29.7.0",
+    "next": "15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@testing-library/react": "^16.2.0",
+    "cypress": "^14.2.1",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "jest-environment-jsdom": "^29.7.0"
   }
 }
